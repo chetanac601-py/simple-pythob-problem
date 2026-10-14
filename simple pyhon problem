@@ -1,0 +1,22 @@
+'''Add Default Parameters:
+
+Create a class Employee with attributes name, designation, and salary (default value of salary is 30,000).
+Write a method that displays the details of each employee.
+Create multiple Employee objects with different values for name and designation, and test the default salary behavior.
+
+class employe:
+    def __init__(self,name,designation,salary):
+        self.name=name
+        self.designation=designation
+        self.salary=salary
+
+    def display_employe(self):
+        print(f"employe name:{self.name}, employe designation:{self.designation} employe ratng:{self.salary}")'''
+
+employe1 = employe("varshan","manager",10000)
+employe2= employe("harsha","python developer",50000)
+employe3 = employe("darshan","watch man",25000)
+
+employe1.display_employe()
+employe2.display_employe()
+employe3.display_employe()
